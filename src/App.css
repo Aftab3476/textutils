@@ -1,0 +1,90 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+/* 
+@media screen  and(max-width: 767px){
+    textutils{
+      font-size: 10px;
+    }
+} */
+
+@media screen and (max-width: 500px) {
+  .textutils{
+    font-size: 23px;
+    text-align: center;
+  }
+  
+}
+
+@media screen and (min-width: 501px) and (max-width: 1000px){
+  .textutils{
+    font-size: 25px;
+    text-align: center;
+  }
+  
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1200px){
+  .textutils{
+    text-align: center;
+  }
+  
+}
+
+.custom2{
+  position: relative;
+  padding-left: 50%;
+}
+
+.txt-btn{
+  font-weight: 700;
+  border-radius: 15px;
+  background-color: rgb(243, 239, 10) !important;
+  color: black !important;
+}
+
+.txt-btn:hover{
+  background-color: blue !important;
+  color: #fff !important;
+  box-shadow: -1px 1px 10px 4px #f1eeee;
+
+}
+
+*{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
